@@ -1,16 +1,90 @@
-# React + Vite
+# 👨‍💼 Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Employee Management System** built with **React.js** and **Firebase Firestore**. The application allows users to manage employee records by performing CRUD operations with real-time cloud database storage.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new employee records
+* View employee details
+* Update employee information
+* Delete employee records
+* Real-time data storage using Firebase Firestore
+* Responsive and user-friendly interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Firebase
+* Firebase Firestore
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+Employee-Management-System/
+├── public/
+├── src/
+├── package.json
+└── README.md
+```
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/shivam56-hub/employee-management-system.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Configure Firebase
+
+Create a Firebase project and add your Firebase configuration to your project.
+
+## ▶️ Run the Application
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```text
+http://localhost:5173
+```
+
+## 🔥 Firebase Services Used
+
+* Firebase Firestore
+
+## 📌 Key Functionalities
+
+* Create Employee
+* Read Employee Details
+* Update Employee Information
+* Delete Employee Records
+* Real-time Database Integration
+
+## 🔮 Future Enhancements
+
+* Firebase Authentication
+* Search and filter employees
+* Employee profile images
+* Export employee data
+* Dashboard with analytics
+* Pagination
+
+## 👨‍💻 Author
+
+**Shivam Kumar**
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
