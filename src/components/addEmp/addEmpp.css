@@ -1,0 +1,63 @@
+.addEmp {
+  background-color: #f4f9ff;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.form-container {
+  margin-top: 4rem;
+}
+
+.form-responsive {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-responsive h3 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.form-responsive .form-label {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  text-align: left;
+}
+
+.form-responsive .form-control {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-responsive .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.form-responsive button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+}
+
+.form-responsive button[type="submit"]:hover {
+  background: linear-gradient(to right, #0056b3, #003d82);
+  transform: scale(1.03);
+}
+
+.alert-container {
+  max-width: 90%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+}

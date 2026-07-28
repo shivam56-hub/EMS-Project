@@ -1,0 +1,166 @@
+.addEmp {
+    background-color: #f4f9ff;
+    min-height: 100vh;
+    padding-bottom: 80px; /* It is used to prevent content hiding behind fixed footer */
+}
+.form-responsive {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.form-container {
+  margin-top: 4rem !important;
+}
+.form-container form {
+    padding: 2rem !important;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-container form h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  font-size: 26px;
+}
+.form-container form .form-label {
+  font-weight: bold;
+  color: #333;
+  margin-left: 3px;
+}
+.form-container form .form-control {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-container form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+ .form-container form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+}
+
+.form-container form button[type="submit"]:hover {
+  background: linear-gradient(to right, #0056b3, #003d82);
+  transform: scale(1.05);
+}
+
+.alert-container {
+  font-size: 1.4rem;
+  background-color: #f8d7da;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 90%; 
+  
+}
+.text-center {
+  font-size: 16px;
+}
+.text-center a{
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .form-responsive {
+    width: 70%;
+  }
+} 
+@media (max-width: 768px) {
+  .addEmp {
+    padding: 1rem 0;
+    padding-bottom: 100px;
+  }
+
+  .form-container {
+    margin-top: 3rem !important;
+    padding: 0 1rem;
+  }
+
+  .form-responsive {
+    width: 100%;
+  }
+
+  .form-container form {
+    padding: 1.5rem !important;
+  }
+
+  .form-container form h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-container form .form-label {
+    font-size: 0.95rem;
+  }
+
+  .form-container form .form-control {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .alert-container {
+    font-size: 1rem;
+    margin: 1rem 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .alert-container p {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .btn-cont {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-container form {
+    padding: 1rem !important;
+    border-radius: 8px;
+  }
+
+  .form-container form h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-container form .form-label {
+    font-size: 0.85rem;
+  }
+
+  .form-container form .form-control,
+  .form-container form textarea {
+    font-size: 0.85rem;
+    padding: 6px;
+  }
+
+  .form-container form button[type="submit"] {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .alert-container {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+
+  .addEmp {
+    padding-bottom: 120px;
+  }
+}
